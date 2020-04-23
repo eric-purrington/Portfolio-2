@@ -1,24 +1,51 @@
 body, html {
     height: 100%;
-    background-color: palegoldenrod;
 }
 
-/* The hero image */
-/* .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG-0191.jpg");
+#navBar {
+    color: #78b0a0;
+    background-color: #f8d0b0;
+    width: 100%;
+    z-index: 99;
+    border-radius: 10px;
+}
 
-  /* Set a specific height */
-  height: 200%;
+.uk-navbar-container {
+    height: 80px;
+}
 
-  /* Position and center the image to scale nicely on all screens */
+.sticky {
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+.thatMeContainer, .thatMeContainer h1 {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.myImg {
+    height: 300px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.uk-panel {
+    margin: 20px;
+    border: 1px solid #78b0a0;
+    border-radius: 10px;
+}
+
+.hero-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG-01912.jpg"); */
+  background-image: url("IMG-01912.jpg");
+  height: 300px;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Place text in the middle of the image */
 .hero-text {
   text-align: center;
   position: absolute;
@@ -26,4 +53,4 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-} */
+}
