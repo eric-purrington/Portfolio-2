@@ -1,17 +1,44 @@
+/* Scrollbar changes from W3*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #78b0a0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #587850;
+}
+
 body, html {
     height: 100%;
 }
 
+.hero-image {
+    background-image: url("IMG-01912.jpg");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 #navBar {
-    color: #78b0a0;
     background-color: #f8d0b0;
     width: 100%;
     z-index: 99;
     border-radius: 10px;
 }
 
-.uk-navbar-container {
+.uk-navbar-container, .uk-navbar-container li a {
     height: 80px;
+    color: #587850;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 .sticky {
@@ -20,37 +47,51 @@ body, html {
     width:100%;
 }
 
-.thatMeContainer, .thatMeContainer h1 {
+.heroContainer{
     text-align: center;
-    margin: 50px;
+    margin: 150px 0px;
     font-family: 'Playfair Display', serif;
 }
+
+.heroContainer h1 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+}
+
 .myImg {
     height: 300px;
     width: auto;
     border-radius: 50px;
 }
 
+.aboutContainer, .projectsContainer, .contactContainer {
+    height: 50%;
+    background-color: #78b0a0;
+    color: white;
+    margin: 20px 0px;
+    padding: 80px;
+    text-align: center;
+}
+
+.uk-card {
+    height: 345px;
+    width: 515px;
+    padding: 25px 0px; 
+    background-color: #587850; 
+    border-radius: 30px;
+}
+
 .uk-panel {
     margin: 20px;
-    border: 1px solid #78b0a0;
-    border-radius: 10px;
+    /* border: 1px solid #78b0a0; */
+    /* border-radius: 10px; */
 }
 
-.hero-image {
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG-01912.jpg"); */
-  background-image: url("IMG-01912.jpg");
-  height: 300px;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.footer {
+    height: 25%;
+    background-color: #587850;
+    color: #f8d0b0;
+    text-align: center;
+    margin-top: 20px;
+    padding: 80px;
 }
