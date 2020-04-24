@@ -1,10 +1,11 @@
 /* Scrollbar changes from W3*/
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
     background: white;
+    /* opacity: 0; */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -38,7 +39,7 @@ body, html {
     height: 80px;
     color: #587850;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .sticky {
@@ -49,13 +50,15 @@ body, html {
 
 .heroContainer{
     text-align: center;
-    margin: 150px 0px;
-    font-family: 'Playfair Display', serif;
+    margin: 100px 0px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .heroContainer h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 50px;
+    font-weight: bold;
+    color: #587850;
 }
 
 .myImg {
@@ -64,27 +67,36 @@ body, html {
     border-radius: 50px;
 }
 
-.aboutContainer, .projectsContainer, .contactContainer {
-    height: 50%;
+.aboutContainer, .projectsContainer{
     background-color: #78b0a0;
     color: white;
     margin: 20px 0px;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
 }
 
-.uk-card {
-    height: 345px;
-    width: 515px;
-    padding: 25px 0px; 
-    background-color: #587850; 
-    border-radius: 30px;
+.projectsContainer{
+    background-color: white;
 }
 
-.uk-panel {
-    margin: 20px;
-    /* border: 1px solid #78b0a0; */
-    /* border-radius: 10px; */
+.aboutContainer h1, .aboutContainer h4 {
+    color: white;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.uk-grid-match img {
+    margin-top: 30px;
+}
+
+.uk-panel img {
+    border-radius: 30px;
+    border: 1px solid #78b0a0;
+}
+
+.mountaineer {
+    background-color: black;
+    /* border-radius: 30px; */
 }
 
 .footer {
@@ -92,6 +104,11 @@ body, html {
     background-color: #587850;
     color: #f8d0b0;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 80px;
+}
+
+.fab {
+    color: #f8d0b0;
+    margin: 10px;
 }
