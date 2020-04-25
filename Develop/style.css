@@ -1,19 +1,18 @@
-/* Scrollbar changes from W3*/
+/* Scrollbar changes*/
 ::-webkit-scrollbar {
     width: 8px;
 }
 
 ::-webkit-scrollbar-track {
     background: white;
-    /* opacity: 0; */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #78b0a0;
+    background: #24b273;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #587850;
+    background: #243d44;
 }
 
 body, html {
@@ -21,7 +20,7 @@ body, html {
 }
 
 .hero-image {
-    background-image: url("IMG-01912.jpg");
+    background-image: url("./Images/TreeHero.jpg");
     height: 300px;
     background-position: center;
     background-size: cover;
@@ -29,7 +28,7 @@ body, html {
 }
 
 #navBar {
-    background-color: #f8d0b0;
+    background-color: #24b273;
     width: 100%;
     z-index: 99;
     border-radius: 10px;
@@ -37,11 +36,12 @@ body, html {
 
 .uk-navbar-container, .uk-navbar-container li a {
     height: 80px;
-    color: #587850;
+    color: #243d44;
     font-weight: bold;
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Make the navbar stick to top */
 .sticky {
     position: fixed;
     top: 0;
@@ -50,15 +50,15 @@ body, html {
 
 .heroContainer{
     text-align: center;
-    margin: 100px 0px;
+    margin: 150px 0px;
     font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .heroContainer h1 {
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 50px;
     font-weight: bold;
-    color: #587850;
+    color: #243d44;
 }
 
 .myImg {
@@ -68,43 +68,58 @@ body, html {
 }
 
 .aboutContainer, .projectsContainer{
-    background-color: #78b0a0;
-    color: white;
-    margin: 20px 0px;
-    padding: 80px;
+    margin: 200px 0px;
     text-align: center;
 }
 
+.aboutContainer {
+    padding: 80px 50px;
+    background-color: #167a8b;
+    color: white;
+}
+
+.smallerCon h4 {
+    padding: 10px 50px;
+}
+
+.linkInText {
+    color: #243d44;
+}
+
+.linkInText:hover {
+    color: #243d44;
+}
+
 .projectsContainer{
-    background-color: white;
+    background-color: #167a8b;
+    padding: 80px;
 }
 
 .aboutContainer h1, .aboutContainer h4 {
     color: white;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.projectsContainer h1 {
-    color: #587850;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.projectsContainer h1, .projectsContainer h3 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .uk-grid-match img {
     margin-top: 30px;
 }
 
-.uk-panel img {
+.panel img {
     border-radius: 30px;
-    border: 1px solid #78b0a0;
+    border: 1px solid #167a8b;
 }
 
 .uk-overlay {
     display: none;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
 }
 
-.uk-panel img:hover + .uk-overlay{
+.panel img:hover + .uk-overlay{
     display: block;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -116,20 +131,30 @@ body, html {
     border-bottom-right-radius: 30px;
 }
 
-.mountaineer {
-    background-color: black;
+.uk-overlay p {
+    color: #24b273;
 }
 
 .footer {
-    height: 25%;
-    background-color: #587850;
+    height: 30%;
+    background-color: #243d44;
     color: #f8d0b0;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 175px;
     padding: 60px;
+}
+.textHolder {
+    padding: 50px 0px;
+}
+.footer h3 {
+    color: #f8d0b0;
 }
 
 .fab, .fas {
     color: #f8d0b0;
-    margin: 10px;
+    margin: 10px 30px;
+}
+
+.fa-dice-d20 {
+    color: #24b273
 }
