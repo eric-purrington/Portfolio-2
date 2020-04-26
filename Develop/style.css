@@ -56,7 +56,7 @@ body, html {
 
 .heroContainer h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-weight: bold;
     color: #243d44;
 }
@@ -98,6 +98,7 @@ body, html {
 .aboutContainer h1, .aboutContainer h4 {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
 }
 
 .projectsContainer h1, .projectsContainer h3 {
@@ -141,11 +142,9 @@ body, html {
     color: #f8d0b0;
     text-align: center;
     margin-top: 175px;
-    padding: 60px;
+    padding: 60px 0px;
 }
-.textHolder {
-    padding: 50px 0px;
-}
+
 .footer h3 {
     color: #f8d0b0;
 }
